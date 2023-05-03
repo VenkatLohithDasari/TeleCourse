@@ -1,0 +1,11 @@
+colorama==0.4.6
+natsort==8.3.1
+opencv_python==4.7.0.72
+Pillow==9.4.0
+Pillow==9.5.0
+Pyrogram==2.0.100
+python-dotenv==1.0.0
+python_magic==0.4.27
+Requests==2.29.0
+tinydb==4.7.1
+tqdm==4.64.1

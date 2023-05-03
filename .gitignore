@@ -1,0 +1,76 @@
+# Compiled source #
+###################
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info
+dist
+build
+__pycache__
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.db
+db.sqlite3
+*_db.json
+
+# Environment variables #
+#########################
+.env
+*.env
+.env.local
+*.env.local
+.env.development
+*.env.development
+.env.test
+*.env.test
+.env.production
+*.env.production
+
+# IDE files #
+#############
+.vscode/
+.idea/
+*.iml
+
+# System files #
+################
+.DS_Store
+Thumbs.db
+Icon?
+*.swp
+
+# Package files #
+#################
+*.egg
+
+# Other files #
+###############
+*.session
+*.jpg
+*.png
+*.bak
+*.tmp
+*.zip
+*.gz
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.exe
+*.dll
+*.class
+*.psd
+*.ai
+*.pdf
+*.csv
+*.xlsx
+*.xls
+*.doc
+*.docx
+*.ppt
+*.pptx
