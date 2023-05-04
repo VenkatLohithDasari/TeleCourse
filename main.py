@@ -44,6 +44,7 @@ elif initial_choice == "c":
     for course in clist:
         print(Fore.BLACK + Back.WHITE + Style.BRIGHT +
               f"{count}. {course}" + Style.RESET_ALL)
+        count += 1
     print('\n')
     course_selection = int(input("One Selection? : "))
     database_file = f"./Database/{clist[course_selection-1]}_db.json"
