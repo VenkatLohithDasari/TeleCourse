@@ -12,5 +12,6 @@ class CourseSection():
                             key=lambda x: x.name, reverse=True)
         sections = []
         for folder in folders:
-            sections.append({'name': folder.name, 'path': folder.path})
+            if folder.is_dir():
+                sections.append({'name': folder.name, 'path': folder.path})
         return sections
