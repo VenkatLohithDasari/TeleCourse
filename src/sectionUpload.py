@@ -15,8 +15,6 @@ load_dotenv()
 api_id = os.getenv("api_id")
 api_hash = os.getenv("api_hash")
 
-logoID = 1779834160
-
 
 def progress(current, total):
     bar_length = 50
@@ -71,8 +69,7 @@ async def start(section_name, section_path, database, group_id):
             print(
                 Fore.GREEN + f"  Heading Image Already Existed at message ID: {find_head[0]['chatID']}")
         else:
-            image_result = getImage(fileName=section_name, logoID=logoID)
-            logoID = image_result["newID"]
+            image_result = getImage(fileName=section_name, logoID=1779834160)
 
             heading_caption = f'''<b>{section_name}</b>'''
 
